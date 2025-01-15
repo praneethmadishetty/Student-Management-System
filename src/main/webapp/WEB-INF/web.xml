@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<servlet>
+<servlet-name>Demo 1</servlet-name>
+<servlet-class>StudentAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Demo 1</servlet-name>
+<url-pattern>/added</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>Demo 2</servlet-name>
+<servlet-class>StudentDel</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Demo 2</servlet-name>
+<url-pattern>/deleted</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>Demo 3</servlet-name>
+<servlet-class>StudentUpd</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Demo 3</servlet-name>
+<url-pattern>/updated</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>Demo 4</servlet-name>
+<servlet-class>StudentDis</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Demo 4</servlet-name>
+<url-pattern>/displayed</url-pattern>
+</servlet-mapping>
+</web-app>
